@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/38c114dab5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="pc-container md:flex md:items-center md:justify-between md:mx-[20%]">
+
+  
+
+  <div class="phone flex scale-75 items-center justify-center">
+    <div class="chat-screen flex flex-col shadow-xl w-[400px] border-white border-[12px] rounded-[40px] overflow-hidden bg-[#f5f3f7]">
+      <div class="chat-head ">
+        <div class="pill w-[50%] h-7 translate-y-[-5%] rounded-b-[20px] bg-white mx-auto"></div>
+
+        <div class="conent flex items-center px-6">
+          <div class="back">
+            <i class="fa-solid fa-angle-left text-white text-lg"></i>
+          </div>
+          <div class="info flex items-center px-4 py-4">
+            <div class="avatar">
+              <img class="w-10 rounded-full border-[2px]" src="images/avatar.jpg" alt="avatar">
+            </div>
+            <div class="profile ml-3">
+              <div class="name text-white">Samuel Green</div>
+              <div class="online-status text-[#d89eff]">Available to Walk</div>
+            </div>
+          </div>
+          <div class="menu ml-auto">
+            <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="chat-text px-4 flex flex-col">
+
+        <p class="receive-bubble mt-4 max-w-[70%] bg-[#9241c82a]  shadow-lg p-3 text-[#9241c8]">That sounds great. I’d be happy to discuss more.
+        </p>
+        <p class="receive-bubble mt-4 max-w-[70%] bg-[#9241c82a] shadow-lg  p-3 text-[#9241c8]">Could you send over some pictures of your dog, please?</p>
+
+
+        <div class="images flex ml-auto mt-4">
+          <img class="w-16 shadow-lg rounded-[16px]" src="images/dog-image-1.jpg" alt="">
+          <img class="w-16 shadow-lg ml-3 rounded-[16px]" src="images/dog-image-2.jpg" alt="">
+          <img class="w-16 shadow-lg ml-3 rounded-[16px]" src="images/dog-image-3.jpg" alt="">
+        </div>
+
+        <p class="sent-bubble mt-4 max-w-[70%] bg-white shadow-lg p-3 ml-auto text-[#6e5d7e]">Here are a few pictures. She’s a happy girl!</p>
+        <p class="sent-bubble mt-4 max-w-[70%] bg-white shadow-lg p-3 ml-auto text-[#6e5d7e]">Can you make it?</p>
+
+        <p class="receive-bubble mt-4 max-w-[70%] bg-[#9241c82a] shadow-lg  p-3 text-[#9241c8]">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+        <div class="RATE receive-bubble text-white mt-4 max-w-[80%]  p-4 pr-6 flex items-center shadow-lg">
+          <i class="fa-sharp fa-regular fa-circle text-xl text-[#e570ff]"></i>
+          <p class="pl-3">30 minute walk</p>
+          <p class="text-3xl font-bold ml-auto">$29</p>
+        </div>
+
+        <div class="RATE receive-bubble text-white my-4 max-w-[80%]  p-4 pr-6 flex items-center shadow-lg">
+          <i class="fa-sharp fa-regular fa-circle text-xl text-[#e570ff] "></i>
+          <p class="pl-3">1 hour walk</p>
+          <p class="text-3xl font-bold ml-auto">$49</p>
+        </div>
+
+      </div>
+      <div class="typing-area bg-white m-3 mt-auto rounded-[50px] p-1 pl-8  flex items-center justify-between ">
+        <p class="text-[#c6cacd]">Type a message…</p>
+        <div class="submit">
+          <i
+            class="fa-solid fa-angle-right text-xl text-white bg-[#3e2753] leading-[45px] w-[45px] text-center rounded-full"></i>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="text my-12 px-8 md:max-w-[60%]">
+    <h1 class="text-center md:text-left text-[45px] text-[#3e2753] font-[500] ">Simple booking</h1>
+    <p class="text-center md:text-left py-6 text-lg text-[#a39daa]">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+    discuss arrangements and make bookings. Once the walk has been completed you can rate
+    your walker and book again all through the chat.</p>
+  </div>
+</div>
+ 
+</body>
+
+</html>
